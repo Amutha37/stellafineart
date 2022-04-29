@@ -74,12 +74,13 @@
 }
 .macaw-container {
   text-align: center;
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
   color: rgb(116, 108, 108);
 }
-.home-bluethumb {
-  font-weight: 500;
-  font-size: calc(6px + 2.8vmin);
+.new_painting_title p {
+  font-weight: 300;
+  font-size: calc(6px + 4vmin);
+  margin-bottom: 5px;
 }
 
 #quickLink_bluethumb_center p {
@@ -97,7 +98,7 @@
   justify-content: center;
   top: 2rem;
   gap: 7px;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .macaw-image-column {
@@ -119,6 +120,8 @@
   width: 100%;
 }
 .headpaint h1 {
+  font-weight: 600;
+  font-size: calc(9px + 3vmin);
   margin-bottom: 2rem;
 }
 #home_paintTitle {
@@ -149,7 +152,7 @@
 .paintbrush_text {
   max-width: 40rem;
   padding: 3rem 2rem;
-  border: 3px solid #486255;
+  border: 2px solid #486255;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -190,7 +193,7 @@
 @media screen and (max-width: 400px) {
   .paintbrush_text {
     padding: 3rem 1rem;
-    border: 8px solid #486255;
+    border: 2px solid #486255;
     margin-left: auto;
     margin-right: auto;
     text-align: center;

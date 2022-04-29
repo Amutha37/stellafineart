@@ -170,9 +170,12 @@ const ContactForm = () => {
         <div className="contact-note">
           <p>
             Please fell free to contact me for any enquiries or comments and I
-            will get back to you. If you are an SEO website marketer or any
-            other related marketer, please do not bother me as I will not
-            respond.
+            will get back to you.
+          </p>
+          <br></br>
+          <p>
+            If you are an SEO website marketer or any other related marketer,
+            please do not bother me as I will not respond.
           </p>
         </div>
         <div className="contact-survey-wrapper">

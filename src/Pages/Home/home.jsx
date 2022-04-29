@@ -34,9 +34,7 @@ const Home = () => {
       <div>
         <div className="paintbrush_text">
           <div className="headpaint">
-            {/* <h1>NEW & EXCITING ANNOUNCEMENT</h1> */}
             <h1>Children's Art Classes </h1>{' '}
-            {/* <p className="announcement_home">Starting in TERM 2 </p> */}
           </div>
           <div className="home-images-row">
             <div className="home-image-column">
@@ -74,7 +72,7 @@ const Home = () => {
               <img src={macaw} alt="Blue and Gold Macaw" />
             </div>
           </div>
-          <div className="home-bluethumb">
+          <div className="new_painting_title">
             <p>Blue and Gold Macaw{''}</p>
 
             <div id="quickLink_bluethumb_center">
