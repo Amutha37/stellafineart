@@ -107,7 +107,7 @@ export const WildLifeImages = [
     id: 1,
     name: 'Major Mitchell Cockatoo',
     size: '40cm(W) x 50cm(H)',
-    image: require('./wildlife/majorMitchellCockat.jpg').default,
+    image: require('./wildlife/majorMitchellCockatoo.jpg').default,
   },
   {
     id: 2,
