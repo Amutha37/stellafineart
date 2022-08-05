@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 // import { QuotesHome } from '../../Helpers/AllQuotes/quotes';
 import Artist from '../Artist/artist';
 import Testimonial from '../Testimonial/testimonial';
-import paintBrush from '../../Assets//Images/globalimages/small brushes.jpg';
 import { blueThumb } from '../../Assets/Images/Images';
-import macaw from '../../Assets//Images/wildlife/blueandgoldmacaw.jpg';
-import Effieimage1 from '../../Assets//Images/portrait/Effieimage1.jpg';
-import Effieimage2 from '../../Assets//Images/portrait/Effieimage2.jpg';
-import Effievideo from '../../Assets//Images/portrait/Effievideo.mp4';
+import paintBrush from '../../Assets/Images/globalimages/smallbrushes.jpg';
+
+import macaw from '../../Assets/Images/wildlife/blueandgoldmacaw.jpg';
+import Effieimage1 from '../../Assets/Images/portrait/Effieimage1.jpg';
+import Effieimage2 from '../../Assets/Images/portrait/Effieimage2.jpg';
+import Effievideo from '../../Assets/Videos/Effievideo.mp4';
 
 import './homestyles.css';
 
@@ -106,6 +107,7 @@ const Home = () => {
         <div className="macaw-container">
           <div className="new_painting_title">
             <p>Blue and Gold Macaw{''}</p>
+
             <div id="quickLink_bluethumb_center">
               <p>Click below ⤵️ to buy {''}</p>
               <a
@@ -116,6 +118,7 @@ const Home = () => {
               {blueThumb}
             </div>
           </div>
+
           <div className="macaw-images-row">
             <div className="macaw-image-column">
               <img src={macaw} alt="Blue and Gold Macaw" />
