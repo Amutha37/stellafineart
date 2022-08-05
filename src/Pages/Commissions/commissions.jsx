@@ -13,6 +13,8 @@ const Commissions = () => {
         <p>Oil and/or acrylic on canvas or wood panel.</p>
         <p> FREE SHIPPING in Australia</p>
       </div>
+
+      {/* sample painting in a row  */}
       <div className="commission-images-row">
         {CommissionSamples.map((sampleImg, i) => (
           <div key={i} className="commission-image-column">
@@ -20,6 +22,7 @@ const Commissions = () => {
           </div>
         ))}
       </div>
+
       {/* notes for commission */}
       <div className="commission-note">
         <p>

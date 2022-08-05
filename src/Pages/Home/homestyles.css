@@ -66,16 +66,70 @@
 }
 .home-image-column img {
   width: 100%;
-  /* max-height: 700px; */
   text-align: center;
   vertical-align: middle;
   margin-right: auto;
   margin-left: auto;
 }
-.macaw-container {
+/* effie css */
+.effie-container {
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
+  margin-top: 9rem;
   color: rgb(116, 108, 108);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.effie-images-row {
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+  width: 80%;
+  height: auto;
+  position: relative;
+  display: flex;
+
+  margin-bottom: 2rem;
+}
+
+.effie-image-column {
+  margin-right: 6px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.effie-image-column img {
+  width: 80%;
+  /* max-height: 600px; */
+
+  text-align: center;
+  vertical-align: middle;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1rem;
+}
+.effie-image-column video {
+  width: 100%;
+  align-items: center;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1rem;
+}
+.effimg1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.effimg1 img {
+  width: 400px;
+}
+.paint-Effie {
+  font-size: 20px;
+  margin-top: 1rem;
 }
 .new_painting_title p {
   font-weight: 300;
@@ -85,32 +139,30 @@
 
 #quickLink_bluethumb_center p {
   font-size: 16px;
-  margin-bottom: 5px;
+  margin-bottom: 1rem;
 }
-
-.macaw-images-row {
-  margin-right: auto;
-  margin-left: auto;
-  width: 65%;
-  max-height: 700px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  top: 2rem;
-  gap: 7px;
-  margin-bottom: 2rem;
+#quickLink_bluethumb_center a {
+  margin-bottom: 6rem;
+}
+.macaw-container {
+  text-align: center;
+  margin-bottom: 6rem;
+  color: rgb(116, 108, 108);
+  margin-top: 1rem;
 }
 
 .macaw-image-column {
   margin-right: 6px;
-  overflow-y: hidden;
-  overflow-x: scroll;
   margin-right: auto;
   margin-left: auto;
+  max-width: 100%;
+  max-height: 700px;
+  width: 65%;
+  margin-top: 1rem;
 }
 .macaw-image-column img {
   max-width: 100%;
-  max-height: 600px;
+  max-height: 700px;
   text-align: center;
   vertical-align: middle;
   margin-right: auto;
