@@ -137,12 +137,12 @@
 }
 .new_painting_title_effie p {
   font-weight: 400;
-  font-size: calc(8px + 4vmin);
+  font-size: calc(8px + 4.5vmin);
   margin-bottom: 5px;
 }
 .effimg2 img {
   align-items: center;
-  width: 80vw;
+  width: 90vw;
 }
 .effimg2 {
   display: flex;
