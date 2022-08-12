@@ -17,7 +17,7 @@ const Home = () => {
   // const PrintQuotes = QuotesHome();
 
   return (
-    <>
+    <div className="home_Container">
       <header>
         {/* home page */}
         <div className="landing_Container">
@@ -63,7 +63,7 @@ const Home = () => {
         </div>{' '}
         {/* effie painting  start*/}
         <div className="effie-container">
-          <div className="new_painting_title">
+          <div className="new_painting_title_effie">
             <p>Painting and Drawing</p>
           </div>
 
@@ -94,8 +94,13 @@ const Home = () => {
           </div>
 
           <div className="effie-images-row">
-            <div className="effie-image-column">
-              <img src={Effieimage2} alt="painting" loading="lazy" />
+            <div className="effie-image-column effimg2">
+              <img
+                src={Effieimage2}
+                id="finishEffie"
+                alt="painting"
+                loading="lazy"
+              />
 
               <div>
                 <p className="paint-Effie">Finished result</p>
@@ -128,7 +133,7 @@ const Home = () => {
       </div>
       <Testimonial />
       <Artist />
-    </>
+    </div>
   );
 };
 
