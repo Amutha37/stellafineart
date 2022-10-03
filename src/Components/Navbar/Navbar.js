@@ -42,7 +42,7 @@ function Navbar() {
     <Fragment>
       <div>
         <div className="appheader">
-          <p>Stella Kypriotis Fine Art </p>
+          <p>Fine Art Stella Kypriotis </p>
           <p id="captivated-by-nature">Captivated by Nature</p>
         </div>
         {/* <nav className={`navbar ${show && 'nav_black'}`}> */}

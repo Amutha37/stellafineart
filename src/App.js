@@ -17,7 +17,7 @@ const App = () => {
   return (
     <>
       <Helmet>
-        <title>Stella Kypriotis Fine Art</title>
+        <title>Fine Art Stella Kypriotis</title>
         <meta
           name="Fine Art"
           content="Fine art painting can be a portrait or ourdoor painting (plein air) and commision painting anything of your interest."
