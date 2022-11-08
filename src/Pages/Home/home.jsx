@@ -32,8 +32,8 @@ const Home = () => {
           <div className="headpaint">
             {/* <h1>Children's Art Classes </h1> */}
             <p id="blink">NEW & EXCITING WORKSHOP </p>
+            <p className="shirt">Paint a T-shirt </p>
             <p className="place ">South-West Sydney</p>
-            <p className="shirt">Paint a t-shirt </p>
           </div>
           <div className="home-images-row">
             <div className="home-image-column">
@@ -46,11 +46,12 @@ const Home = () => {
             <div id="class_details1">
               <p className="ages_home">January 2023 school holidays</p>
               <p>
-                Dates - Friday 6<sup>th</sup>, 13<sup>th</sup>& 20<sup>th</sup>
+                {/* Dates - Friday 6<sup>th</sup>, 13<sup>th</sup> & 20<sup>th</sup> */}
+                Dates - Friday 6th, 13th & 20th
               </p>
               <p>Times - 9:30 am - 12pm</p>
               <p>Ages - 8 - 16 years</p>
-              Just bring your t-shirt and your water bottle.
+              Just bring your T-shirt and your water bottle.
               {/* <p className="ages_home">Stella's Fine-Art now teaching</p>
               <p className="ages_home">
                 Children's Art Classes ages 8 - 14 years.
