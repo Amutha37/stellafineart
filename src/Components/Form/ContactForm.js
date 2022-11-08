@@ -110,6 +110,7 @@ const ContactForm = () => {
         [
           countEnquiries.Commissions,
           countEnquiries.Portrait,
+          countEnquiries.Workshop,
           countEnquiries.Classes,
           countEnquiries.General,
           new Date().toLocaleString(),
@@ -156,6 +157,7 @@ const ContactForm = () => {
     countFinding.bluethumb = '';
     countFinding.family = '';
     countFinding.other = '';
+    countEnquiries.Workshop = '';
     countEnquiries.Classes = '';
     countEnquiries.Portrait = '';
     countEnquiries.Commissions = '';

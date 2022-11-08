@@ -16,7 +16,7 @@ const Classes = () => {
         <div className="class_topNote">
           <p>
             Children's Art Classes ages 8-14yrs are being held in Woodbine (near
-            Leumeah) South-West of greater Sydney.
+            Leumeah) South-West of Sydney.
           </p>
           <p>
             These classes are great for beginners interested in learning to

@@ -49,9 +49,11 @@ const ServiceOption = [
     label: 'Portrait',
   },
   {
+    label: 'Workshop',
+  },
+  {
     label: 'Classes',
   },
-
   {
     label: 'General',
   },

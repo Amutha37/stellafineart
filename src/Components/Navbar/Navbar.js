@@ -42,9 +42,14 @@ function Navbar() {
     <Fragment>
       <div>
         <div className="appheader">
-          <p>Fine Art Stella Kypriotis </p>
+          <p>Fine Art Stella Kypriotis</p>
           <p id="captivated-by-nature">Captivated by Nature</p>
         </div>
+        {/* <div className="appheader">
+          <p>Fine Art Stella Kypriotis</p>
+          
+        </div> */}
+
         {/* <nav className={`navbar ${show && 'nav_black'}`}> */}
         <nav history={history} className="navbar">
           <div className="menu-icon" onClick={handleClick}>

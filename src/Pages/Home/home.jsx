@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import Artist from '../Artist/artist';
 import Testimonial from '../Testimonial/testimonial';
 import { blueThumb } from '../../Assets/Images/Images';
-import paintBrush from '../../Assets/Images/globalimages/smallbrushes.jpg';
-
+// import paintBrush from '../../Assets/Images/globalimages/smallbrushes.jpg';
+import squirrelPaint from '../../Assets/Images/globalimages/squirrelPaint.jpg';
 import macaw from '../../Assets/Images/wildlife/blueandgoldmacaw.jpg';
 import Effieimage1 from '../../Assets/Images/portrait/Effieimage1.jpg';
 import Effieimage2 from '../../Assets/Images/portrait/Effieimage2.jpg';
@@ -30,33 +30,41 @@ const Home = () => {
       <div>
         <div className="paintbrush_text">
           <div className="headpaint">
-            <h1>Children's Art Classes </h1>{' '}
+            {/* <h1>Children's Art Classes </h1> */}
+            <p id="blink">NEW & EXCITING WORKSHOP </p>
+            <p className="place ">South-West Sydney</p>
+            <p className="shirt">Paint a t-shirt </p>
           </div>
           <div className="home-images-row">
             <div className="home-image-column">
-              <img src={paintBrush} alt="paintBrushes" />
+              <img src={squirrelPaint} alt="squirrelPaint" />
+              {/* <img src={paintBrush} alt="paintBrushes" /> */}
             </div>
           </div>
 
           <div className="headpaint">
             <div id="class_details1">
-              <p className="ages_home">
-                {' '}
-                Stella's Fine-Art now teaching
-                <p className="ages_home">
-                  Children's Art Classes ages 8 - 14 years.
-                </p>
-              </p>
-
+              <p className="ages_home">January 2023 school holidays</p>
               <p>
-                For more information click{' '}
+                Dates - Friday 6<sup>th</sup>, 13<sup>th</sup>& 20<sup>th</sup>
+              </p>
+              <p>Times - 9:30 am - 12pm</p>
+              <p>Ages - 8 - 16 years</p>
+              Just bring your t-shirt and your water bottle.
+              {/* <p className="ages_home">Stella's Fine-Art now teaching</p>
+              <p className="ages_home">
+                Children's Art Classes ages 8 - 14 years.
+              </p> */}
+              <p>
+                {/* For more information click{' '} */}
+                For more information contact me {''}
                 <em>
-                  <Link to="/classes" className="enquire_now">
+                  {/* <Link to="/classes" */}
+                  <Link to="/contact" className="enquire_now">
                     here.
                   </Link>
                 </em>
               </p>
-
               <p>* Limited spaces available *</p>
             </div>
           </div>
