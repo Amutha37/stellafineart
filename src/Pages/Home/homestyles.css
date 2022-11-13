@@ -257,7 +257,7 @@
   margin-top: 1rem;
 }
 #class_details1 #discount {
-  font-size: calc(6px + 1.4vmin);
+  font-size: calc(5px + 1.3vmin);
   margin-top: 0rem;
 }
 /* #cost {
@@ -310,6 +310,10 @@
   }
   .paintbrush_text {
     width: 80%;
+  }
+  #class_details1 #discount {
+    font-size: calc(6px + 1.3vmin);
+    margin-top: 0rem;
   }
 }
 
