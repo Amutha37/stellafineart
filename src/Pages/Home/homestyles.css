@@ -257,7 +257,8 @@
   margin-top: 1rem;
 }
 #class_details1 #discount {
-  font-size: calc(5px + 1.3vmin);
+  /* font-size: calc(5px + 1.3vmin); */
+  color: rgb(97, 94, 94);
   margin-top: 0rem;
 }
 /* #cost {
@@ -301,10 +302,6 @@
   }
 }
 @media screen and (max-width: 768px) {
-  /* .landing_Image {
-    width: 100%;
-  } */
-
   .landing_Container .landing_Image {
     width: 100%;
   }
@@ -312,7 +309,7 @@
     width: 80%;
   }
   #class_details1 #discount {
-    font-size: calc(6px + 1.3vmin);
+    font-size: calc(6px + 1.4vmin);
     margin-top: 0rem;
   }
 }
