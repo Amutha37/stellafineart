@@ -48,9 +48,9 @@ const Home = () => {
               <p>Dates - Friday 6th, 13th & 20th</p>
               <p>Times - 9:30 am - 12pm</p>
               <p>Cost $40 per child</p>
-              <p id="discount">
+              {/* <p id="discount">
                 (Early bird special 10% off if booked before 28 Nov'22)
-              </p>
+              </p> */}
               <p>Ages - 8 - 16 years</p>
               <p>Just bring a T-shirt and a water bottle.</p>
               {/* <p className="ages_home">Stella's Fine-Art now teaching</p>
