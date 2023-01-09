@@ -256,6 +256,10 @@
 #class_details1 p {
   margin-top: 1rem;
 }
+.dates {
+  margin-top: 0rem;
+}
+
 #class_details1 #discount {
   /* font-size: calc(5px + 1.3vmin); */
   color: rgb(97, 94, 94);

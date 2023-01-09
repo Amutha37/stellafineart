@@ -45,13 +45,15 @@ const Home = () => {
           <div className="headpaint">
             <div id="class_details1">
               <p className="ages_home">January 2023 school holidays</p>
-              <p>Dates - Friday 6th, 13th & 20th</p>
+              <p>Dates - Monday 16th January</p>
+              Ages 6 - 9 years
+              <p>Dates - Wednesday 18th January</p>
+              Ages 10 - 14 years
               <p>Times - 9:30 am - 12pm</p>
               <p>Cost $40 per child</p>
               {/* <p id="discount">
                 (Early bird special 10% off if booked before 28 Nov'22)
               </p> */}
-              <p>Ages - 8 - 16 years</p>
               <p>Just bring a T-shirt and a water bottle.</p>
               {/* <p className="ages_home">Stella's Fine-Art now teaching</p>
               <p className="ages_home">
@@ -67,7 +69,9 @@ const Home = () => {
                   </Link>
                 </em>
               </p>
-              <p>* Limited spaces available *</p>
+              <p>
+                * Book before Thursday 12th January 2023 FOR A 10% DISCOUNT *
+              </p>
             </div>
           </div>
         </div>{' '}
