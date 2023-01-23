@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import Artist from '../Artist/artist';
 import Testimonial from '../Testimonial/testimonial';
 import { blueThumb } from '../../Assets/Images/Images';
-// import paintBrush from '../../Assets/Images/globalimages/smallbrushes.jpg';
-import squirrelPaint from '../../Assets/Images/globalimages/squirrelPaint.jpg';
+import paintBrush from '../../Assets/Images/globalimages/smallbrushes.jpg';
+// import squirrelPaint from '../../Assets/Images/globalimages/squirrelPaint.jpg';
 import macaw from '../../Assets/Images/wildlife/blueandgoldmacaw.jpg';
 import Effieimage1 from '../../Assets/Images/portrait/Effieimage1.jpg';
 import Effieimage2 from '../../Assets/Images/portrait/Effieimage2.jpg';
@@ -32,46 +32,48 @@ const Home = () => {
           <div className="headpaint">
             {/* <h1>Children's Art Classes </h1> */}
             <p id="blink">NEW & EXCITING WORKSHOP </p>
-            <p className="shirt">Paint a T-shirt </p>
-            <p className="place ">South-West Sydney</p>
+            {/* <p className="shirt">Paint a T-shirt </p> */}
+            <p className="place "> Location : South-West Sydney</p>
           </div>
           <div className="home-images-row">
             <div className="home-image-column">
-              <img src={squirrelPaint} alt="squirrelPaint" />
-              {/* <img src={paintBrush} alt="paintBrushes" /> */}
+              {/* <img src={squirrelPaint} alt="squirrelPaint" /> */}
+              <img src={paintBrush} alt="paintBrushes" />
             </div>
           </div>
 
           <div className="headpaint">
             <div id="class_details1">
-              <p className="ages_home">January 2023 school holidays</p>
+              {/* term class note starts here */}
+              {/* <p className="ages_home">January 2023 school holidays</p>
               <p>Dates - Monday 16th January</p>
               Ages 6 - 9 years
               <p>Dates - Wednesday 18th January</p>
               Ages 10 - 14 years
               <p>Times - 9:30 am - 12pm</p>
-              <p>Cost $40 per child</p>
+              <p>Cost $40 per child</p> */}
+              {/* term note ends here */}
               {/* <p id="discount">
                 (Early bird special 10% off if booked before 28 Nov'22)
               </p> */}
-              <p>Just bring a T-shirt and a water bottle.</p>
-              {/* <p className="ages_home">Stella's Fine-Art now teaching</p>
+              {/* <p>Just bring a T-shirt and a water bottle.</p> */}
+              <p className="ages_home">Stella's Fine-Art now teaching</p>
               <p className="ages_home">
                 Children's Art Classes ages 8 - 14 years.
-              </p> */}
+              </p>
               <p>
-                {/* For more information click{' '} */}
-                For more information contact me {''}
+                For more information click{' '}
+                {/* For more information contact me {''} */}
                 <em>
-                  {/* <Link to="/classes" */}
-                  <Link to="/contact" className="enquire_now">
+                  {/* <Link to="/contact"*/}
+                  <Link to="/classes" className="enquire_now">
                     here.
                   </Link>
                 </em>
               </p>
-              <p>
+              {/* <p>
                 * Book before Thursday 12th January 2023 FOR A 10% DISCOUNT *
-              </p>
+              </p> */}
             </div>
           </div>
         </div>{' '}
@@ -102,7 +104,7 @@ const Home = () => {
                 <source src={Effievideo} type="video/mp4" />
               </video>
               <div>
-                <p className="paint-Effie">Video progress</p>
+                <p className="paint-Effie">Progress video</p>
               </div>
             </div>
           </div>
