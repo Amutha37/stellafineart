@@ -31,7 +31,7 @@ const Home = () => {
         <div className="paintbrush_text">
           <div className="headpaint">
             {/* <h1>Children's Art Classes </h1> */}
-            <p id="blink">NEW & EXCITING WORKSHOP </p>
+            <p id="blink">NEW & EXCITING ART CLASSES </p>
             {/* <p className="shirt">Paint a T-shirt </p> */}
             <p className="place "> Location : South-West Sydney</p>
           </div>
