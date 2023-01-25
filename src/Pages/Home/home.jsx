@@ -32,7 +32,7 @@ const Home = () => {
           <div className="headpaint">
             {/* <h1>Children's Art Classes </h1> */}
             {/* <p id="blink">NEW & EXCITING ART CLASSES </p> */}
-               <p>ART CLASSES </p>
+            <p id="blink">ART CLASSES </p>
             {/* <p className="shirt">Paint a T-shirt </p> */}
             <p className="place "> Location : South-West Sydney</p>
           </div>

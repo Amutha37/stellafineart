@@ -203,12 +203,16 @@
 }
 #blink {
   /* animation: blinker 0.75s linear infinite; */
-  color: red;
-  animation: blinker 1s linear infinite;
+  /* blink */
+  /* color: red; */
+  /* animation: blinker 1s linear infinite; */
+  /* blink */
+  color: rgb(99, 96, 96);
   font-weight: 600;
   font-size: calc(9px + 3vmin);
 }
-@keyframes blinker {
+/* blink setting start */
+/* @keyframes blinker {
   from {
     color: red;
   }
@@ -218,7 +222,8 @@
   50% {
     opacity: 0;
   }
-}
+} */
+/* blink code ends */
 .ages_home {
   font-size: calc(6px + 2.8vmin);
 }
