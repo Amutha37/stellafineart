@@ -63,38 +63,44 @@ export const NatureImages = [
 export const FloralImages = [
   {
     id: 1,
+    name: 'Mums Hydrangeas In Vase',
+    size: '50cm(W) x 50cm(H)',
+    image: require('./floral/hydrangeas.jpg').default,
+  },
+  {
+    id: 2,
     name: 'Waterlily Study By Mason',
     size: '50cm(W) x 40cm(H)',
     image: require('./floral/waterlilystudybymason.jpg').default,
   },
   {
-    id: 2,
+    id: 3,
     name: 'Lifes Sweet Perfume',
     size: '60cm(W) x 30cm(H)',
     image: require('./floral/lifessweetperfume.jpg').default,
   },
 
   {
-    id: 3,
+    id: 4,
     name: 'Love Blossoms',
     size: '90cm(W) x 76cm(H)',
     image: require('./floral/loveblossoms.jpg').default,
   },
   {
-    id: 4,
+    id: 5,
     name: 'Minor bird in Waratah Garden',
     size: '20cm(W) x 25cm(H)',
     image: require('./floral/minorbirdinwaratahgarden.jpg').default,
   },
   {
-    id: 5,
+    id: 6,
     name: 'Skoulariki Fuschia Plant',
     size: '32cm(W) x 27cm(H)',
     image: require('./floral/skoularikifuschiaplant.jpg').default,
   },
 
   {
-    id: 6,
+    id: 7,
     name: 'Blossomed Tulip',
     size: '50cm(W) x 50cm(H)',
     image: require('./floral/blossomedtulip.jpg').default,
@@ -208,24 +214,31 @@ export const MastercopiesImages = [
 export const PortraitImages = [
   {
     id: 1,
-    name: 'Portrait 1',
-    size: '',
-    image: require('./portrait/portrait1.jpg').default,
-  },
-  {
-    id: 2,
     name: 'Martin Luther King',
     size: '',
     image: require('./portrait/martinlutherking.jpg').default,
   },
   {
+    id: 2,
+    name: 'Portrait 1',
+    size: '',
+    image: require('./portrait/Effie.jpg').default,
+  },
+  {
     id: 3,
+    name: 'Portrait 2',
+    size: '',
+    image: require('./portrait/portrait1.jpg').default,
+  },
+
+  {
+    id: 4,
     name: 'Portrait 2',
     size: '',
     image: require('./portrait/portrait2.jpg').default,
   },
   {
-    id: 4,
+    id: 5,
     name: 'Christopher',
     size: '',
     image: require('./portrait/christopher.jpg').default,

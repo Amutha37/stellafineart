@@ -10,10 +10,10 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 10%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url('../../Assets/Images/globalimages/blackHeath.jpg');
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url('../../Assets/Images/globalimages/blackHeath2.jpg'); */
+    url('../../Assets/Images/globalimages/blackHeath.jpg'); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(27, 20, 20, 0.1)),
+    url('../../Assets/Images/globalimages/hydrangeasbanner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 80%;
@@ -295,7 +295,7 @@
 .paintbrush_text {
   max-width: 40rem;
   padding: 3rem 2rem;
-  border: 2px solid #486255;
+  /* border: 2px solid #486255; */
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -336,7 +336,7 @@
 @media screen and (max-width: 400px) {
   .paintbrush_text {
     padding: 3rem 1rem;
-    border: 2px solid #486255;
+    /* border: 2px solid #486255; */
     margin-left: auto;
     margin-right: auto;
     text-align: center;

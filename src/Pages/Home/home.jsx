@@ -3,13 +3,7 @@ import { Link } from 'react-router-dom';
 // import { QuotesHome } from '../../Helpers/AllQuotes/quotes';
 import Artist from '../Artist/artist';
 import Testimonial from '../Testimonial/testimonial';
-import { blueThumb } from '../../Assets/Images/Images';
-import paintBrush from '../../Assets/Images/globalimages/smallbrushes.jpg';
-// import squirrelPaint from '../../Assets/Images/globalimages/squirrelPaint.jpg';
-import macaw from '../../Assets/Images/wildlife/blueandgoldmacaw.jpg';
-import Effieimage1 from '../../Assets/Images/portrait/Effieimage1.jpg';
-import Effieimage2 from '../../Assets/Images/portrait/Effieimage2.jpg';
-import Effievideo from '../../Assets/Videos/Effievideo.mp4';
+import kidsworkshop from '../../Assets/Images/globalimages/kidsworkshop.jpg';
 
 import './homestyles.css';
 
@@ -32,14 +26,13 @@ const Home = () => {
           <div className="headpaint">
             {/* <h1>Children's Art Classes </h1> */}
             {/* <p id="blink">NEW & EXCITING ART CLASSES </p> */}
-            <p id="blink">ART CLASSES </p>
+            <p id="blink">ART CLASSES FOR CHILDREN</p>
             {/* <p className="shirt">Paint a T-shirt </p> */}
-            <p className="place "> Location : South-West Sydney</p>
+            <p className="place "> Location : Campbelltown-Sydney</p>
           </div>
           <div className="home-images-row">
             <div className="home-image-column">
-              {/* <img src={squirrelPaint} alt="squirrelPaint" /> */}
-              <img src={paintBrush} alt="paintBrushes" />
+              <img src={kidsworkshop} alt="paintBrushes" />
             </div>
           </div>
 
@@ -58,9 +51,10 @@ const Home = () => {
                 (Early bird special 10% off if booked before 28 Nov'22)
               </p> */}
               {/* <p>Just bring a T-shirt and a water bottle.</p> */}
-              <p className="ages_home">Stella's Fine-Art now teaching</p>
+              <p className="ages_home">Stella's Fine-Art teaching</p>
               <p className="ages_home">
-                Children's Art Classes ages 8 - 14 years.
+                Children's Art Classes and School Holiday Workshop ages 8 - 14
+                years.
               </p>
               <p>
                 For more information click{' '}
@@ -79,7 +73,7 @@ const Home = () => {
           </div>
         </div>{' '}
         {/* effie painting  start*/}
-        <div className="effie-container">
+        {/* <div className="effie-container">
           <div className="new_painting_title_effie">
             <p>Painting and Drawing</p>
           </div>
@@ -124,9 +118,9 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* macaw painting */}
-        <div className="macaw-container">
+        {/* <div className="macaw-container">
           <div className="new_painting_title">
             <p>Blue and Gold Macaw{''}</p>
 
@@ -146,8 +140,9 @@ const Home = () => {
               <img src={macaw} alt="Blue and Gold Macaw" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
+
       <Testimonial />
       <Artist />
     </div>
