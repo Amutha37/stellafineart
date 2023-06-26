@@ -10,50 +10,56 @@
 export const NatureImages = [
   {
     id: 1,
+    name: 'Wisteria Blooms',
+    size: '76cm(W) x 60cm(H)',
+    image: require('./nature/wisteriablooms.jpg').default,
+  },
+  {
+    id: 2,
     name: 'Caves beach',
     size: '75cm(W) x 50cm(H)',
     image: require('./nature/cavesbeach.jpg').default,
   },
 
   {
-    id: 2,
+    id: 3,
     name: 'Minnamurra Falls',
     size: '23cm(W) x 30cm(H)',
     image: require('./nature/minnamurrafalls.jpg').default,
   },
   {
-    id: 3,
+    id: 4,
     name: 'Glistening Waters',
     size: '30.5cm(W) x 23cm(H)',
     image: require('./nature/glisteningwaters.jpg').default,
   },
 
   {
-    id: 4,
+    id: 5,
     name: 'Scenic Waters Hawaii',
     size: '30cm(W) x 30cm(H)',
     image: require('./nature/scenicwatershawaii.jpg').default,
   },
   {
-    id: 5,
+    id: 6,
     name: 'Shining Gum Tree',
     size: '40cm(W) x 30cm(H)',
     image: require('./nature/shininggumtree.jpg').default,
   },
   {
-    id: 6,
+    id: 7,
     name: 'The Lighthouse Wollongong',
     size: '18cm(W) x 13cm(H)',
     image: require('./nature/thelighthousewollongong.jpeg').default,
   },
   {
-    id: 7,
+    id: 8,
     name: 'Serene Waters',
     size: '120cm(W) x 90cm(H)',
     image: require('./nature/serenewaters.jpg').default,
   },
   {
-    id: 8,
+    id: 9,
     name: 'Beside Still Waters',
     size: '50cm(W) x 40cm(H)',
     image: require('./nature/besidestillwaters.jpg').default,
@@ -249,18 +255,24 @@ export const PortraitImages = [
 export const PetportraitsImages = [
   {
     id: 1,
+    name: 'Princess the Cat',
+    size: '',
+    image: require('./petportraits/princessthecat.jpg').default,
+  },
+  {
+    id: 2,
     name: 'Striking Macaws',
     size: '',
     image: require('./petportraits/strikingmacaws.jpg').default,
   },
   {
-    id: 2,
+    id: 3,
     name: 'Charlie',
     size: '',
     image: require('./petportraits/charlie.jpg').default,
   },
   {
-    id: 3,
+    id: 4,
     name: 'Lorikeet',
     size: '',
     image: require('./petportraits/lorikeet.jpg').default,
