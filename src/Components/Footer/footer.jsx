@@ -134,7 +134,7 @@ const Footer = () => {
 
       <div className="footertext">
         <p>
-          Copyright <i className="far fa-copyright"> </i> Stella Kypriotis 2022
+          Copyright <i className="far fa-copyright"> </i> Stella Kypriotis 2023
           All Right Reserved.
         </p>
         <hr />

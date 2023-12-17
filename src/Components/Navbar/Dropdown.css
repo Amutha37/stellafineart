@@ -19,6 +19,7 @@
   transition: all 0.5s ease;
   left: -100%;
 }
+
 .dropdown-menu:after {
   content: '';
   position: absolute;
@@ -89,9 +90,16 @@
   .dropdown-menu {
     right: 35%;
   }
+  .fa-bars {
+    font-size: 2rem;
+  }
 }
 @media only screen and (max-width: 600px) {
   .dropdown-menu {
     right: 30%;
+  }
+  .fa-bars {
+    font-size: 1.5rem;
+    margin-right: 7px;
   }
 }
